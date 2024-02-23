@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 
 
-[text](https://property-listing-1.vercel.app/)
+[property-listing-1.vercel.app](https://property-listing-1.vercel.app/)
 
 First, run the development server:
 
