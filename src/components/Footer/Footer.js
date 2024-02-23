@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Footer(){
     return (
@@ -6,7 +7,7 @@ export default function Footer(){
             <div className="flex md:flex-row flex-row md:gap-5 items-center justify-start w-full">
                 <div className="flex flex-col gap-[43px] m-5 w-[341px] items-start justify-start">
                     <div className="flex flex-row gap-[11px] h-10 md:h-auto w-[341px] items-center justify-start">
-                        <img src="/images/img_home.svg" alt="logo"/>
+                        <Image src="/images/img_home.svg" alt="logo" width={40} height={40} />
                         Relasto
                     </div>
 

@@ -32,7 +32,7 @@ export default function Home() {
         </div>
 
         <div className="w-[50%] h-auto">
-          <img src="/images/img_image.png" alt="Home image"/>
+          <Image src="/images/img_image.png" alt="Home Image" width={800} height={600} />
         </div>
 
       </div>

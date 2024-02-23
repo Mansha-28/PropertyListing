@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
@@ -11,7 +12,8 @@ export default function Header(){
             <div className="flex md:flex-col bg-white-A700 flex-row md:gap-10 items-center w-full">
                 <div className="flex justify-around w-full">
                         <div className="w-[10%] my-8  flex">
-                            <img src="/images/img_home.svg" alt="logo" />
+
+                            <Image src="/images/img_home.svg" alt="logo" width={40} height={40} />
                             Relansto
                         </div>
 
