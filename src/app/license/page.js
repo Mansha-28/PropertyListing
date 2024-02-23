@@ -9,10 +9,10 @@ export default function License(){
                 <p className="mt-2">We need your permission if your intellectual property rights restrict our use of your content. You provide Google with that permission through this license.</p>
             </div>
 
-            <p className="mt-8 mb-4 text-2xl font-bold text-black">What’s covered</p>
+            <p className="mt-8 mb-4 text-2xl font-bold text-black">What&apos;s covered</p>
             <div className="">This license covers your content if that content is protected by intellectual property rights.</div>
 
-            <p className="mt-8 mb-4 text-2xl font-bold text-black">What’s not covered</p>
+            <p className="mt-8 mb-4 text-2xl font-bold text-black">What&apos;s not covered</p>
             <div className="">We use cookies to recognize and monitor users, their on-site behavior, and their preferences for accessing their website. These cookies include the IP and time of visits by visitors. Visitors to Relasto that do not want cookies put on their browsers should configure their browsers to reject cookies before using the Relasto website.</div>
 
             <p className="mt-8 mb-4 text-2xl font-bold text-black">Price Updates</p>

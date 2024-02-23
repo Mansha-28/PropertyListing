@@ -2,7 +2,7 @@ import clsx from "clsx";
 import React from "react";
 
 const Textbox = React.forwardRef(
-  ({ type, placeholder, label, className, register, name}) => {
+  ({ type, placeholder, className, register, name}) => {
     return (
       <div className='w-full mt-6 flex flex-col gap-1'>
         
