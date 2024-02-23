@@ -1,8 +1,7 @@
 import clsx from "clsx";
 import React from "react";
 
-const Textbox = React.forwardRef(
-  ({ type, placeholder, className, register, name}) => {
+const Textbox = ({ type, placeholder, className, register, name}) => {
     return (
       <div className='w-full mt-6 flex flex-col gap-1'>
         
@@ -22,8 +21,5 @@ const Textbox = React.forwardRef(
       </div>
     );
   }
-);
-
-App.displayName = 'MyTextbox';
 
 export default Textbox;
