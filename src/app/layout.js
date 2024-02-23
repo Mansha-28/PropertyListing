@@ -21,7 +21,9 @@ export default function RootLayout({ children }) {
           user ? <Header /> : ""
         }
         
-        {children}
+        <div className="bg-orange-50 h-auto py-5">
+          {children}
+        </div>
 
         {
           user ? <Footer /> : ""

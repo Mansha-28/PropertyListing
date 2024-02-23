@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Footer(){
     return (
         <div className="flex flex-col my-20 md:gap-10 gap-[120px] items-start justify-start w-full">
@@ -32,10 +34,10 @@ export default function Footer(){
                             Features
                         </div>
                         <div className="flex flex-col gap-3.5 items-start justify-start w-full">
-                            <div className="text-gray-900 text-base w-full">Home</div>
+                            <Link href="/"><div className="text-gray-900 text-base w-full">Home</div></Link>
                             <div className="text-gray-900 text-base w-full">Home V2</div>
                             <div className="text-gray-900 text-base w-full">About</div>
-                            <div className="text-gray-900 text-base w-full">Contacts</div>
+                            <Link href="/contact"><div className="text-gray-900 text-base w-full">Contacts</div></Link>
                             <div className="text-gray-900 text-base w-full">Search</div>
                         </div>
                     </div>
@@ -56,10 +58,10 @@ export default function Footer(){
                             Documentation
                         </div>
                         <div className="flex flex-col gap-3.5 items-start justify-start w-full">
-                            <div className="text-gray-900 text-base w-full">Blof</div>
+                            <div className="text-gray-900 text-base w-full">Blog</div>
                             <div className="text-gray-900 text-base w-full">FAQs</div>
                             <div className="text-gray-900 text-base w-full">Privacy Policy</div>
-                            <div className="text-gray-900 text-base w-full">Licence</div>
+                            <Link href="/license"><div className="text-gray-900 text-base w-full">Licence</div></Link>
                         </div>
                     </div>
                     <div className="flex flex-1 flex-col gap-5 items-start justify-start w-full">
