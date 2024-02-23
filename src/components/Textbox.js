@@ -19,14 +19,11 @@ const Textbox = React.forwardRef(
           />
         </div>
 
-        {/* {label && (
-          <label htmlFor={name} className='text-slate-800'>
-            {label}
-          </label>
-        )} */}
-
       </div>
     );
   }
 );
+
+App.displayName = 'MyTextbox';
+
 export default Textbox;
